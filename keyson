@@ -1,0 +1,23 @@
+'atom-text-editor[data-grammar="source ocaml"]':
+  'ctrl-shift-t': 'ocaml-merlin:show-type'
+  'alt-shift-r': 'ocaml-merlin:rename-variable'
+  'ctrl-shift-l': 'linter:lint'
+  'ctrl-alt-f': 'ocaml-indent:file'
+
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+
+'atom-text-editor':
+  'ctrl-alt-f': 'editor:auto-indent'
+  'alt-j': 'core:move-down'
+  'alt-k': 'core:move-up'
+  'alt-h': 'core:move-left'
+  'alt-l': 'core:move-right'
+  'alt-shift-h': 'editor:move-to-previous-subword-boundary'
+  'alt-shift-l': 'editor:move-to-next-subword-boundary'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'alt-f': 'editor:fold-selection'
